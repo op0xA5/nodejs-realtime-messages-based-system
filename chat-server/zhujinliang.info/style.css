@@ -1,0 +1,23 @@
+
+body, div {font-size:12px;}
+
+.left {width: 160px; height: 500px ;float: left; overflow:hidden; }
+.right {width: 440px; height: 500px; overflow:hidden; padding-left:5px;}
+
+.onlineNum {width: 160px; height:18px; line-height:18px; }
+.userList {width: 160px; height: 476px;}
+
+.tooltip {width: 430px; height: 18px; line-height:18px;}
+.tooltip span {padding-right: 6px;}
+.tooltip .clickable {color: blue; text-decoration:underline; cursor:pointer;}
+
+
+.msgShow {width:430px; height:360px;}
+.usermsg {width:430px; height:60px;}
+.sendMsg {width:120px; height:28px; float:right; margin-right:5px;}
+
+.loginPage {padding: 35px 60px;}
+
+.chatTo {height: 18px; line-height: 18px; padding-left: 12px;}
+.toName {font-weight: bold;}
+.toAll {color: blue; text-decoration:underline; cursor:pointer;}
