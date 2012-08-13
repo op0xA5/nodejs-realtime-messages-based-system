@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="tester.css" />
+<script src="json2.js"></script>
+<script src="jquery.js"></script>
+<script src="localstorage.js"></script>
+<script src="jsonTool.js"></script>
+<script src="longpoll.client.js"></script>
+<script src="tester.js"></script>
+<title>调试工具</title>
+</head>
+
+<body><div id="main" style="width:720px;">
+<div id="btnConnect" class="btnConnect">连接服务器</div>
+<div id="conversation" class="conversation">	
+    <ul id="convContainer" class="convContainer">
+    </ul>
+    <div id="btnFliter" class="btnFliter divBtn">过滤器(<span>OFF</span>)</div>
+    <input id="inputFliter" class="inputFliter" />
+    <div id="btnAutoScroll" class="btnAutoScroll divBtn">自动滚动(<span>ON</span>)</div> 
+</div>
+
+<div id="inspector" class="inspector">
+	<textarea id="textOutput" class="textOutput" readonly="readonly"></textarea>
+</div>
+
+<div id="constructor" class="constructor">
+	<textarea id="textInput" class="textInput"></textarea>
+    <div id="panelTooltip" class="panelTooltip">
+        <div class="lableTemplete">模板:</div>
+        <select id="selTemplete" class="selTemplete">
+        
+        </select>
+        <div class="btnSaveTemplete divBtn" id="btnSaveTemplete">存为模板</div>
+        <div class="btnDelTemplete divBtn" id="btnDelTemplete">删除模板</div>
+        <input type="button" class="btnSendMsg" id="btnSendMsg" value="发送消息"/>
+    </div>
+</div>
+
+<div id="macro" class="macro" style="display:none;">
+
+	<div id="btnRecord" class="btnRecord divBtn">录制宏</div>
+	<div id="btnRecord" class="btnRecord divBtn">运行</div>
+
+</div>
+</div>
+</body>
+</html>
